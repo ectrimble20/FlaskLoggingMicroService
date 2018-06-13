@@ -1,0 +1,676 @@
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:01:34] "POST / HTTP/1.1" 404 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:02:17] "POST /log/import HTTP/1.1" 404 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:05:07] "POST /log/import HTTP/1.1" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:05:45] "POST /log/import HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:06:25] "POST /log/import HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\logging.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:08:39] "POST /log/import HTTP/1.1" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+DEBUG:flask.app:{'key': 'test_key', 'messages': [{'level': 'warning', 'timestamp': '2018-04-03 12:43:12', 'body': 'Apache was stopped'}, {'level': 'notice', 'timestamp': '2018-04-03 12:43:13', 'body': 'Apache was started'}, {'level': 'warning', 'timestamp': '2018-04-03 12:43:15', 'body': 'Apache was stopped'}, {'level': 'error', 'timestamp': '2018-04-03 12:43:17', 'body': 'Apache was stopped and unable to restart successfully'}]}
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:08:58] "POST /log/import HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\logging.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+DEBUG:flask.app:<class 'dict'>
+DEBUG:flask.app:{'key': 'test_key', 'messages': [{'level': 'warning', 'timestamp': '2018-04-03 12:43:12', 'body': 'Apache was stopped'}, {'level': 'notice', 'timestamp': '2018-04-03 12:43:13', 'body': 'Apache was started'}, {'level': 'warning', 'timestamp': '2018-04-03 12:43:15', 'body': 'Apache was stopped'}, {'level': 'error', 'timestamp': '2018-04-03 12:43:17', 'body': 'Apache was stopped and unable to restart successfully'}]}
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:09:38] "POST /log/import HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\logging.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:10:52] "POST /log/import HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\logging.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:11:14] "POST /log/import HTTP/1.1" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:13:09] "POST /log/import HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\logging.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:14:21] "POST /log/import HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:21:46] "POST /log/import HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:22:28] "POST /log/import HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:24:40] "POST /log/import HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 01:25:29] "POST /log/import HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 05:23:49] "POST /query HTTP/1.1" 405 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 05:36:59] "GET /query HTTP/1.1" 400 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 05:37:20] "GET /query HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\intake.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 05:38:32] "GET /query HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\intake.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 05:40:02] "GET /query HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 05:42:04] "GET /query HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:sqlalchemy.engine.base.Engine:SHOW VARIABLES LIKE 'sql_mode'
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT service.id AS service_id, service.label AS service_label, service.ip_address AS service_ip_address, service.`key` AS service_key, service.privileged AS service_privileged 
+FROM service 
+WHERE service.`key` = %s 
+ LIMIT %s
+INFO:sqlalchemy.engine.base.Engine:('test_key', 1)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.label = %s 
+ LIMIT %s
+INFO:sqlalchemy.engine.base.Engine:('debug', 1)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message.id AS log_message_id, log_message.service_id AS log_message_service_id, log_message.log_level_id AS log_message_log_level_id, log_message.log_message_body_id AS log_message_log_message_body_id, log_message.log_date AS log_message_log_date, log_message.create_date AS log_message_create_date 
+FROM log_message
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(4,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(3,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(1,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(4,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(5,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(5,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(6,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(7,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(8,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(9,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(10,)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 05:46:21] "GET /query HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:20:54] "GET /query/test_service HTTP/1.1" 404 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:21:10] "GET /query/service/test_service HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\query.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:sqlalchemy.engine.base.Engine:SHOW VARIABLES LIKE 'sql_mode'
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT service.id AS service_id, service.label AS service_label, service.ip_address AS service_ip_address, service.`key` AS service_key, service.privileged AS service_privileged 
+FROM service 
+WHERE service.label = %s 
+ LIMIT %s
+INFO:sqlalchemy.engine.base.Engine:('test_service', 1)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message.id AS log_message_id, log_message.service_id AS log_message_service_id, log_message.log_level_id AS log_message_log_level_id, log_message.log_message_body_id AS log_message_log_message_body_id, log_message.log_date AS log_message_log_date, log_message.create_date AS log_message_create_date 
+FROM log_message 
+WHERE %s = log_message.service_id
+INFO:sqlalchemy.engine.base.Engine:(1,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(4,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(3,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(1,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(4,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(5,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(5,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(6,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(2,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(7,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(8,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(9,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(10,)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:22:38] "GET /query/service/test_service HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT service.id AS service_id, service.label AS service_label, service.ip_address AS service_ip_address, service.`key` AS service_key, service.privileged AS service_privileged 
+FROM service 
+WHERE service.label = %s 
+ LIMIT %s
+INFO:sqlalchemy.engine.base.Engine:('test_service', 1)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message.id AS log_message_id, log_message.service_id AS log_message_service_id, log_message.log_level_id AS log_message_log_level_id, log_message.log_message_body_id AS log_message_log_message_body_id, log_message.log_date AS log_message_log_date, log_message.create_date AS log_message_create_date 
+FROM log_message 
+WHERE %s = log_message.service_id AND log_message.log_date >= %s AND log_message.log_date <= %s
+INFO:sqlalchemy.engine.base.Engine:(1, datetime.datetime(2018, 4, 3, 0, 0), datetime.datetime(2018, 4, 3, 23, 59, 59))
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(4,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(3,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(1,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(4,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(5,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(5,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(6,)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:23:00] "GET /query/service/test_service/2018-04-03 HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.label = %s 
+ LIMIT %s
+INFO:sqlalchemy.engine.base.Engine:('debug', 1)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message.id AS log_message_id, log_message.service_id AS log_message_service_id, log_message.log_level_id AS log_message_log_level_id, log_message.log_message_body_id AS log_message_log_message_body_id, log_message.log_date AS log_message_log_date, log_message.create_date AS log_message_create_date 
+FROM log_message 
+WHERE %s = log_message.log_level_id
+INFO:sqlalchemy.engine.base.Engine:(2,)
+INFO:sqlalchemy.engine.base.Engine:SELECT service.id AS service_id, service.label AS service_label, service.ip_address AS service_ip_address, service.`key` AS service_key, service.privileged AS service_privileged 
+FROM service 
+WHERE service.id = %s
+INFO:sqlalchemy.engine.base.Engine:(1,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(7,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(8,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(9,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(10,)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:23:21] "GET /query/level/debug HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.label = %s 
+ LIMIT %s
+INFO:sqlalchemy.engine.base.Engine:('critical', 1)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message.id AS log_message_id, log_message.service_id AS log_message_service_id, log_message.log_level_id AS log_message_log_level_id, log_message.log_message_body_id AS log_message_log_message_body_id, log_message.log_date AS log_message_log_date, log_message.create_date AS log_message_create_date 
+FROM log_message 
+WHERE %s = log_message.log_level_id
+INFO:sqlalchemy.engine.base.Engine:(6,)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:23:29] "GET /query/level/critical HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.label = %s 
+ LIMIT %s
+INFO:sqlalchemy.engine.base.Engine:('error', 1)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message.id AS log_message_id, log_message.service_id AS log_message_service_id, log_message.log_level_id AS log_message_log_level_id, log_message.log_message_body_id AS log_message_log_message_body_id, log_message.log_date AS log_message_log_date, log_message.create_date AS log_message_create_date 
+FROM log_message 
+WHERE %s = log_message.log_level_id
+INFO:sqlalchemy.engine.base.Engine:(5,)
+INFO:sqlalchemy.engine.base.Engine:SELECT service.id AS service_id, service.label AS service_label, service.ip_address AS service_ip_address, service.`key` AS service_key, service.privileged AS service_privileged 
+FROM service 
+WHERE service.id = %s
+INFO:sqlalchemy.engine.base.Engine:(1,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(6,)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:23:38] "GET /query/level/error HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:24:14] "GET /query/date/2018-06-13 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:25:41] "GET /query/date/2018-06-12 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\query.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:sqlalchemy.engine.base.Engine:SHOW VARIABLES LIKE 'sql_mode'
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message.id AS log_message_id, log_message.service_id AS log_message_service_id, log_message.log_level_id AS log_message_log_level_id, log_message.log_message_body_id AS log_message_log_message_body_id, log_message.log_date AS log_message_log_date, log_message.create_date AS log_message_create_date 
+FROM log_message 
+WHERE log_message.log_date >= %s AND log_message.log_date <= %s
+INFO:sqlalchemy.engine.base.Engine:(datetime.datetime(2018, 6, 13, 0, 0), datetime.datetime(2018, 6, 13, 23, 59, 59))
+INFO:sqlalchemy.engine.base.Engine:SELECT service.id AS service_id, service.label AS service_label, service.ip_address AS service_ip_address, service.`key` AS service_key, service.privileged AS service_privileged 
+FROM service 
+WHERE service.id = %s
+INFO:sqlalchemy.engine.base.Engine:(1,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(2,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(7,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(8,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(9,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(10,)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:30:06] "GET /query/date/2018-06-13 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:30:22] "GET /query/date/2018-06 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:30:30] "GET /query/date/2018 HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT service.id AS service_id, service.label AS service_label, service.ip_address AS service_ip_address, service.`key` AS service_key, service.privileged AS service_privileged 
+FROM service 
+WHERE service.label = %s 
+ LIMIT %s
+INFO:sqlalchemy.engine.base.Engine:('bad-service', 1)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:30:45] "GET /query/service/bad-service HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.label = %s 
+ LIMIT %s
+INFO:sqlalchemy.engine.base.Engine:('nonexistant', 1)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:31:00] "GET /query/level/nonexistant HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\route_helpers.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\query.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:sqlalchemy.engine.base.Engine:SHOW VARIABLES LIKE 'sql_mode'
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message.id AS log_message_id, log_message.service_id AS log_message_service_id, log_message.log_level_id AS log_message_log_level_id, log_message.log_message_body_id AS log_message_log_message_body_id, log_message.log_date AS log_message_log_date, log_message.create_date AS log_message_create_date 
+FROM log_message 
+WHERE log_message.log_date >= %s AND log_message.log_date <= %s
+INFO:sqlalchemy.engine.base.Engine:(datetime.datetime(2018, 6, 13, 0, 0), datetime.datetime(2018, 6, 13, 23, 59, 59))
+INFO:sqlalchemy.engine.base.Engine:SELECT service.id AS service_id, service.label AS service_label, service.ip_address AS service_ip_address, service.`key` AS service_key, service.privileged AS service_privileged 
+FROM service 
+WHERE service.id = %s
+INFO:sqlalchemy.engine.base.Engine:(1,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(2,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(7,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(8,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(9,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(10,)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 07:43:38] "GET /query/date/2018-06-13 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\route_helpers.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\query.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Eric-Sabretwo\\PycharmProjects\\FlaskMicroLogging\\fmslogging\\routes\\query.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-218-846
+INFO:werkzeug: * Running on http://192.168.1.3:5000/ (Press CTRL+C to quit)
+INFO:sqlalchemy.engine.base.Engine:SHOW VARIABLES LIKE 'sql_mode'
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:show collation where `Charset` = 'utf8' and `Collation` = 'utf8_bin'
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8) COLLATE utf8_bin AS anon_1
+INFO:sqlalchemy.engine.base.Engine:()
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message.id AS log_message_id, log_message.service_id AS log_message_service_id, log_message.log_level_id AS log_message_log_level_id, log_message.log_message_body_id AS log_message_log_message_body_id, log_message.log_date AS log_message_log_date, log_message.create_date AS log_message_create_date 
+FROM log_message 
+WHERE log_message.log_date >= %s AND log_message.log_date <= %s
+INFO:sqlalchemy.engine.base.Engine:(datetime.datetime(2018, 6, 13, 0, 0), datetime.datetime(2018, 6, 13, 23, 59, 59))
+INFO:sqlalchemy.engine.base.Engine:SELECT service.id AS service_id, service.label AS service_label, service.ip_address AS service_ip_address, service.`key` AS service_key, service.privileged AS service_privileged 
+FROM service 
+WHERE service.id = %s
+INFO:sqlalchemy.engine.base.Engine:(1,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(2,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(7,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(8,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(9,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(10,)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 08:09:35] "GET /query/date/2018-06-13 HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT service.id AS service_id, service.label AS service_label, service.ip_address AS service_ip_address, service.`key` AS service_key, service.privileged AS service_privileged 
+FROM service 
+WHERE service.label = %s 
+ LIMIT %s
+INFO:sqlalchemy.engine.base.Engine:('test_service', 1)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message.id AS log_message_id, log_message.service_id AS log_message_service_id, log_message.log_level_id AS log_message_log_level_id, log_message.log_message_body_id AS log_message_log_message_body_id, log_message.log_date AS log_message_log_date, log_message.create_date AS log_message_create_date 
+FROM log_message 
+WHERE %s = log_message.service_id
+INFO:sqlalchemy.engine.base.Engine:(1,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(4,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(3,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(1,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(4,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(5,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(5,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(6,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(2,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(7,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(8,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(9,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(10,)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 08:09:53] "GET /query/service/test_service HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT service.id AS service_id, service.label AS service_label, service.ip_address AS service_ip_address, service.`key` AS service_key, service.privileged AS service_privileged 
+FROM service 
+WHERE service.label = %s 
+ LIMIT %s
+INFO:sqlalchemy.engine.base.Engine:('test_service', 1)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message.id AS log_message_id, log_message.service_id AS log_message_service_id, log_message.log_level_id AS log_message_log_level_id, log_message.log_message_body_id AS log_message_log_message_body_id, log_message.log_date AS log_message_log_date, log_message.create_date AS log_message_create_date 
+FROM log_message 
+WHERE %s = log_message.service_id AND log_message.log_date >= %s AND log_message.log_date <= %s
+INFO:sqlalchemy.engine.base.Engine:(1, datetime.datetime(2018, 4, 3, 0, 0), datetime.datetime(2018, 4, 3, 23, 59, 59))
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(4,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(3,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(1,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(4,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(5,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_level.id AS log_level_id, log_level.label AS log_level_label 
+FROM log_level 
+WHERE log_level.id = %s
+INFO:sqlalchemy.engine.base.Engine:(5,)
+INFO:sqlalchemy.engine.base.Engine:SELECT log_message_body.id AS log_message_body_id, log_message_body.body AS log_message_body_body 
+FROM log_message_body 
+WHERE log_message_body.id = %s
+INFO:sqlalchemy.engine.base.Engine:(6,)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:192.168.1.4 - - [13/Jun/2018 08:10:05] "GET /query/service/test_service/2018-04-03 HTTP/1.1" 200 -

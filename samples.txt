@@ -1,0 +1,84 @@
+The following are the expected structures for the JSON messages to do various things.
+
+
+
+Send a new message for storage
+{
+    "key": "service-key-as-a-string",
+    "data": [
+        {
+            "level": "string-level",
+            "timestamp": "YYYY-MM-DD 00:00:00",  /* ISO 8601 formatted date stamp */
+            "body": "body-of-message"
+        },
+        {
+            "level": "string-level",
+            "timestamp": "YYYY-MM-DD 00:00:00",  /* ISO 8601 formatted date stamp */
+            "body": "another-body-of-message"
+        },
+    ]
+}
+
+
+This is pretty simple and will respond with a simple HTTP-like response message
+{
+    "code": 200|403|400|500,
+    "message": "Success-or-error-message"
+}
+
+
+
+
+The query object should be setup something like this example.  You may query based off a few variables:
+service-name
+ip-address
+log-level
+date
+
+
+You build your query using the parameters like so:
+
+{
+    "key": "service-key-string",
+    "query": {
+        "service-name": "",
+        "ip-address": "",
+        "level": "",
+        "date-start": "",
+        "date-end": ""
+        "date": ""
+    },
+    "sort": ["date-asc", "date-desc", "service-name", "level", "ip-address"],
+    "limit": ### - how many
+}
+
+almost everything is option
+
+Rules:
+if no service-name, ip-address, or level -> ERROR, must have service or level filter
+if level but no date -> ERROR, level requires a date filter
+if date, ignore date-start and date-end
+if no date and date-start and no date-end, default to date-start +24h
+if no date and date-end and no date-start -> default to date-end -24h
+
+sort works in order, for instance if you pass date-desc and level, it will sort date desc then by level
+
+limit does exactly what you think, it limits results to a specified amount.
+
+You may query just a service or an IP without a date.  This can be abused and if there's a lot of data this could bring
+the system performance down so be careful with general "give me everything" queries.
+
+The response will be a standard message response with a data element containing the messages
+{
+    "code": 200|403|400|500,
+    "message": "Success-or-error-message",
+    "count": ### - number of records,
+    "data": [
+        {
+            "service": "name-of-service",
+            "level": "string-level",
+            "timestamp": "YYYY-MM-DD 00:00:00",  /* ISO 8601 formatted date stamp */
+            "body": "another-body-of-message"
+        },
+    ]
+}

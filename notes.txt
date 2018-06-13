@@ -1,0 +1,77 @@
+Flask Micro Service Logging (fmslogging):
+
+This is a micro service to allow aggregation of logging between services, servers, or any other authorized source.
+
+Though the demo is run over HTTP, this should be run over HTTPS in order to obscure the key that must be sent
+with the JSON package to authorize a service to log messages.
+
+So this service needs to handle a couple of different types of actions.
+
+1:  Registering a new service to accept logging.  I don't know how this is going to occur, probably need some kind
+of admin privileges or something like that.
+
+2:  Intake of a log message.  This should be the most common type of message received and will be a specifically
+formatted JSON data structure that then is mapped to a Python object and stored in the persistence layer.
+
+3:  Request for logs.  This is a special query type.  I'm not sure how advanced this should be at the start.  But
+for starting purposes, it'll be just limited to searching specific fields for general data.  Like "get me all logs for
+machine ID 7" or "get me all logs from apache", stuff like that.  We'll need to circle back once we've figured out a
+good data structure for our logs.
+
+4:  Purge request.  Removal of certain logs.  This should be either by service or by date and is only allowed from
+elevated privilege services.
+
+
+
+I'm happy with the database layout, seem to have the FK relationship stuff with SQLAlchemy somewhat understood
+
+Alright, initial tests were successful after working out a couple kinks in the input data.
+I've written a test program on another machine that just sends a single test message and I'm able to parse the response
+without issue.  So I'm happy with it right now, I need to do some error testing etc too and make sure it doesn't break
+hard when it fails.
+
+
+Alright, so I built this big ol' complex query system and it sucks.  You can't build a query object and apply filters
+without chaining the object cuz it forgets wtf it's doing.
+
+So change of plan.  Instead of passing a JSON query object, we're going to go with a true RESTful interface for
+the queries.  We're going to break it away from the intake.py into a query.py and a new Blueprint to keep code clean.
+
+I think what we'll do is something like this:
+/query/service/[service-name]
+/query/level/[level]
+/query/ip/[ip-address]  - actually... this will violate URL standards
+maybe we should just use a query string
+/query?service=service_name&level=level&date=DATE&ip=IP
+
+That might be simpler
+
+I think due to limitations with SQLAlchemy, I'm going to have to use a combination of RESTful and query
+So we keep primary search levels as options.  We remove the IP option, we also remove the "date" range and only
+allow a date to be passed, though to compensate for this we'll allow an offset to be passed with a limit.
+
+/query/[service]/[level]
+filters are passed by query string
+?date=#
+?limit=#
+?offset=#    - requires limit as well for page size
+
+[level] is optional
+
+settled on this:
+/query/service/<service-name>
+/query/service/<service-name>/<date>
+/query/level/<level-label>
+/query/level/<level-label>/<date>
+/query/date/<date>
+
+returns a standard object with a data field containing results
+
+
+Purge will be pretty simple:
+/purge/<service-name>/<date>
+
+
+
+Adding a new service requires a request from a "privileged" service.  This is a post request similar to the log create
+method and requires a key.
